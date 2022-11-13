@@ -1,0 +1,29 @@
+@import "../layout/header.css";
+@import "../layout/footer.css";
+
+.root {
+  min-height: 100vh;
+  max-width: 42rem;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.main--hero {
+  height: 28.125rem;
+
+  background-color: aqua;
+}
+
+.header--hero-welcome {
+  height: 9.813rem;
+
+  margin: 0 0.7rem;
+
+  background-color: blue;
+}
+
+.main {
+  flex: 1 1 0%;
+}
