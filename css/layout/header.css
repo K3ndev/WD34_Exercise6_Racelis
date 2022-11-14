@@ -30,8 +30,10 @@
   cursor: pointer;
 
   text-align: center;
+  user-select: none;
 }
 
 .header--nav-menu {
   cursor: pointer;
+  user-select: none;
 }
