@@ -40,6 +40,8 @@
 
 .footer--nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer--nav p {
@@ -49,4 +51,23 @@
 
 .footer--nav p:hover {
   color: #767676;
+}
+
+.footer--nav-disc {
+  display: flex;
+}
+
+.footer--nav-social {
+  display: flex;
+  align-items: center;
+}
+
+.footer--nav-social a {
+  margin-left: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer--nav-social a svg:hover {
+  fill: #767676;
 }
