@@ -10,34 +10,40 @@
   <body class="root">
     <header class="header">
       <nav class="header--nav">
-        <div>
-          <h1>Caramoan</h1>
-          <p>THE GUIDE</p>
-        </div>
-        <p>menu</p>
+        <a class="header--nav-home">
+          <h1 class="logo font-bold tracking-wider">Caramoan</h1>
+          <p class="text-xs font-normal tracking-normal">THE GUIDE</p>
+        </a>
+        <p class="header--nav-menu text-xl">&#9776</p>
       </nav>
     </header>
 
     <main class="main">
-      <div class="main--hero">
-        <img src="" alt="img" class="header--hero-img" />
-        <p>TUGAWE COVE RESORT</p>
-        <div class="header--hero-welcome">
-          <h2>Welcome! Your upcoming trip is here.</h2>
-          <button>BOOK NOW</button>
+      <div class="hero">
+        <!-- <p class="hero--head text-xl font-normal tracking-normal">TUGAWE COVE RESORT</p> -->
+        <div class="hero--welcome">
+          <h2 class="hero--welcome-head text-xl font-bold tracking-wide">Welcome, your upcoming trip is here.</h2>
+          <button class="hero--welcome-button text-base font-bold tracking-wider">
+            BOOK NOW
+          </button>
         </div>
       </div>
-      <section>
-        <p>EMAIL US</p>
-        <p>location</p>
-        <p>+6390 0000 0000</p>
+      <section class="address">
+        <h3 class="address--content text-lg font-normal tracking-normal">Ten major islands make up Caramoan.
+          You can go rock climbing, caving, and island hopping.  </h3>
+        <hr>
       </section>
-      <section>
-        <h3>
+      <section class="contacts">
+        <a class="contacts--content text-sm font-normal tracking-normal">+6390 0000 0000</a>
+        <a class="contacts--content text-sm font-normal tracking-normal">location</a>
+        <a class="contacts--content text-sm font-normal tracking-normal">Email Us</a>
+      </section>
+      <section class="disc">
+        <h3 class="text-xl font-normal tracking-normal">
           WHERE THE SUN, SEA, AND LAKE CONVERGE, YOU MAY EXPERIENCE NATURE AT
           ITS FINEST.
         </h3>
-        <p>
+        <p class="text-sm font-light tracking-normal">
           Travel to and explore our opulent resorts and diverse islands.
           Caramoan is a municipality on the Caramoan Peninsula, in the
           Philippines. It’s known as a gateway to the beaches, limestone cliffs
@@ -45,32 +51,35 @@
           999 guest rooms.
         </p>
       </section>
-      <section>
-        <h3>FOR YOUR PEACE OF MIND</h3>
-        <div>
-          <p>SAFETY AND HEALTH</p>
+      <section class="tips">
+        <h3 class="tips--head text-lg font-normal tracking-wide">FOR YOUR PEACE OF MIND</h3>
+        <div class="tips--container">
+          <p class="tips--container-disc text-base font-light tracking-normal">SAFETY AND HEALTH &#x2192</p>
         </div>
-        <div>
-          <p>ADVICE ON TRAVEL</p>
+        <div class="tips--container">
+          <p class="tips--container-disc text-base font-light tracking-normal">ADVICE ON TRAVEL &#x2192</p>
         </div>
       </section>
-      <section>
-        <h3>
-          Discover unforgettable guest experience here by visiting
-          @tweet_Caramoan.
+      <section class="comments">
+        <h3 class="comments--content text-xl font-bold tracking-wider">
+          #CARAMOAN_PARADISE
         </h3>
+        <p class="comments--content text-base font-light tracking-normal">Discover unforgettable guest experience here by visiting
+          #CARAMOAN_PARADISE at twitter.</p>
       </section>
     </main>
 
     <footer class="footer">
       <nav aria-label="footer-nav" class="footer--nav">
-        <p>RENT A PRIVATE JET</p>
-        <p>READ MAGAZINE</p>
-        <p>BUY AN ISLAND</p>
+        <p class="text-xs font-light tracking-normal">Legal</p>
+        <p class="text-xs font-light tracking-normal">Privacy Policy</p>
+        <p class="text-xs font-light tracking-normal">Cookie Preferences</p>
       </nav>
     </footer>
     <div class="footer--book" aria-label="footer">
-      <h3 class="footer--book-content">BOOK NOW</h3>
+      <button class="footer--book-content text-xl font-bold tracking-wider">
+        BOOK NOW
+      </button>
     </div>
   </body>
 </html>

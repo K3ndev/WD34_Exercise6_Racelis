@@ -3,27 +3,149 @@
 
 .root {
   min-height: 100vh;
-  max-width: 42rem;
   margin: 0 auto;
+
+  /* HERE temp width size */
+  max-width: 42rem;
 
   display: flex;
   flex-direction: column;
+  font-family: "Comic Neue", cursive;
 }
 
-.main--hero {
+.hero {
   height: 28.125rem;
 
-  background-color: aqua;
+  background-image: url("../../public/hero_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
 }
 
-.header--hero-welcome {
-  height: 9.813rem;
+/* .hero--head {
+  color: white;
 
-  margin: 0 0.7rem;
+  position: absolute;
+  z-index: 1;
+  left: 1.5em;
+  right: 1.5em;
+  bottom: 6rem;
+} */
 
-  background-color: blue;
+.hero--welcome {
+  padding: 1.875rem;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+
+  position: absolute;
+  box-sizing: border-box;
+  z-index: 1;
+  bottom: -5rem;
+  left: 1.5em;
+  right: 1.5em;
+}
+
+.hero--welcome-head {
+  margin-bottom: 1rem;
+}
+
+.hero--welcome-button {
+  background: none;
+  border: solid 1px;
+  cursor: pointer;
+
+  color: white;
+  background-color: black;
+  padding: 0.438rem 0.688rem;
+}
+.hero--welcome-button:hover {
+  color: black;
+  background-color: white;
+}
+
+.address {
+  margin: 7rem 0.7rem 0.7rem;
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+
+.contacts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  margin: 1.8rem 0px;
+}
+.contacts--content {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline;
+  border-bottom: 0.5px solid #000;
+  margin-bottom: 0.8rem;
+
+  cursor: pointer;
+}
+
+.contacts--content:hover {
+  color: #767676;
+  border-color: #767676;
 }
 
 .main {
   flex: 1 1 0%;
+}
+
+.disc {
+  background-color: #f5f5f5;
+  margin-left: 0.725rem;
+  margin-right: 0.725rem;
+  margin-bottom: 1.8rem;
+
+  padding: 1.875rem;
+
+  text-align: center;
+}
+
+.disc h3 {
+  margin-bottom: 1rem;
+}
+
+.tips {
+  width: 100%;
+  padding: 0 0.7rem;
+
+  margin-bottom: 1.8rem;
+}
+
+.tips--head {
+  margin-bottom: 1.9rem;
+}
+
+.tips--container {
+  cursor: pointer;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+
+  margin-bottom: 1.9rem;
+}
+
+.tips--container-disc {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+
+  padding: 1.313rem;
+}
+
+.comments {
+  width: 100%;
+  padding-bottom: 1.8rem;
+  padding-right: 0.7rem;
+  padding-left: 0.7rem;
+
+  text-align: center;
+}
+
+.comments--content {
+  width: 100%;
 }
