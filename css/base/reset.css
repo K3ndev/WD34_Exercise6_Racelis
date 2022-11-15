@@ -20,10 +20,10 @@ dd {
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-/* ul[role="list"],
+ul[role="list"],
 ol[role="list"] {
   list-style: none;
-} */
+}
 ul {
   list-style: none;
 }
@@ -44,8 +44,28 @@ body {
 }
 
 /* A elements that don't have a class get default styles */
+a {
+  text-decoration: none;
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
 a:not([class]) {
   text-decoration-skip-ink: auto;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
 }
 
 /* Make images easier to work with */
