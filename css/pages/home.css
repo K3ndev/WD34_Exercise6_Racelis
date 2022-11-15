@@ -151,7 +151,15 @@
 }
 
 .comments p {
-  margin-bottom: 0.5rem;
+  /* this is weird, i can't add rem in margin-buttom and adding '!important' is bad */
+  padding-bottom: 1.9rem;
+}
+
+@media (min-width: 512px) {
+  .comments p {
+    width: 80%;
+    margin: 0px auto;
+  }
 }
 
 /* https://flickity.metafizzy.co/ */
