@@ -65,7 +65,7 @@
 }
 
 .address {
-  margin: 7rem 0.7rem 0.7rem;
+  margin: 7rem 0.7rem 1rem 0.7rem;
   padding: 1rem 1.5rem;
   text-align: center;
 }
@@ -75,7 +75,7 @@
   display: flex;
   flex-direction: column;
 
-  margin: 1.8rem 0px;
+  margin: 0px 0rem 5rem 0px;
 }
 .contacts--content {
   margin-left: auto;
@@ -99,7 +99,7 @@
 .disc {
   background-color: black;
   color: white;
-  margin-bottom: 1.8rem;
+  margin-bottom: 5rem;
 
   padding: 1.875rem;
 
@@ -114,7 +114,7 @@
   width: 100%;
   padding: 0 0.7rem;
 
-  margin-bottom: 1.8rem;
+  margin-bottom: 5rem;
 }
 
 .tips--head {
@@ -138,9 +138,10 @@
 
 .comments {
   width: 100%;
-  padding-bottom: 2.5rem;
   padding-right: 0.7rem;
   padding-left: 0.7rem;
+
+  margin-bottom: 5rem;
 
   text-align: center;
 }
@@ -149,17 +150,19 @@
   width: 100%;
 }
 
+.comments p {
+  margin-bottom: 0.5rem;
+}
+
 /* https://flickity.metafizzy.co/ */
 .carousel {
   background: white;
 
   margin-left: 0.7rem;
   margin-right: 0.7rem;
-  margin-bottom: 1.8rem;
 }
 
 .carousel-cell {
-  width: 100%;
   height: 27.188rem;
   width: 27.188rem;
   margin-right: 1rem;

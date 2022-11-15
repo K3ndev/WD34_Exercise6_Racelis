@@ -1,5 +1,3 @@
-/* font */
 @import "./base/reset.css";
 @import "./pages/home.css";
-@import "./components/buttons.css";
 @import "./base/typography.css";
