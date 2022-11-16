@@ -122,7 +122,6 @@
 }
 
 .tips--container {
-  cursor: pointer;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 
   margin-bottom: 1.9rem;
@@ -171,19 +170,15 @@
 }
 
 .carousel-cell {
-  height: 27.188rem;
+  height: 30rem;
   width: 27.188rem;
   margin-right: 1rem;
-  background: black;
   counter-increment: gallery-cell;
-
-  position: relative;
 }
 
 /* cell number */
 .carousel-cell:before {
   display: block;
-  text-align: center;
   content: "";
   color: white;
 }
@@ -191,8 +186,23 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+  width: 100%;
+  height: 90%;
+
   position: absolute;
-  bottom: 0;
+}
+
+.carousel-cell p {
+  width: 100%;
+  height: 10%;
+
+  display: flex;
+  position: absolute;
+  bottom: -8px;
+
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 /* hide, bad code */
